@@ -1,1 +1,2 @@
 # Comprehensive-Insurance-Premium-and-Payout-KPI-Dashboard
+  A production-grade, end-to-end Data Analytics project designed to track the complete insurance policy life cycle (2015–2025) for True Secure Credit Insurance. This project implements robust data modeling, dynamic DAX calculations, and Row-Level Security (RLS) to optimize premium collections, claim processing efficiency, and financial forecasting.
