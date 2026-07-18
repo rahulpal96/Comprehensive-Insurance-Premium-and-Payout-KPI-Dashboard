@@ -1,31 +1,35 @@
-# Comprehensive-Insurance-Premium-and-Payout-KPI-Dashboard
+# Insurance-Premium-and-Payout-KPI-Dashboard
   A production-grade, end-to-end Data Analytics project designed to track the complete insurance policy life cycle (2015–2025) for True Secure Credit Insurance. This project implements robust data modeling, dynamic DAX calculations, and Row-Level Security (RLS) to optimize premium collections, claim processing efficiency, and financial forecasting.
 
-📌 Project Overview
+📌** Project Overview**
+
 True Secure Credit Insurance provides specialized individual and business protection plans featuring credit- and debit-linked coverage. Spanning ten years of structural data (2015-2025), this project builds a central, production-ready operational intelligence environment. It automates reporting, eliminates manual reporting latency, tracks policy sign-ups across demographic segments, and helps stakeholders drill down into financial health metrics.
 
-💼 Business Problem
+💼** Business Problem**
+
 The executive leadership faced several major operational challenges:
 
-Data Fragmentation: Financial records, claim metrics, and policy processing lifecycles were siloed across disjointed relational schemas, introducing substantial reporting lags.
+**Data Fragmentation**: Financial records, claim metrics, and policy processing lifecycles were siloed across disjointed relational schemas, introducing substantial reporting lags.
 
-Customer Uptake Blindspots: The business lacked clear visibility into which policy plans or regional sectors were underperforming.
+**Customer Uptake Blindspots**: The business lacked clear visibility into which policy plans or regional sectors were underperforming.
 
-Claim Bottlenecks & Exposure: There was no automated system to monitor active claim processing cycles or accurately project incoming liability payouts from mature investments.
+**Claim Bottlenecks & Exposure**: There was no automated system to monitor active claim processing cycles or accurately project incoming liability payouts from mature investments.
 
-🎯 Project Goals
-Unified Business View: Design an interactive data model that unifies sales, claims, loans, and policy details.
+🎯** Project Goals**
 
-Granular Demographic Profiling: Analyze policy selection trends by state, age at entry, and occupation.
+**Unified Business View**: Design an interactive data model that unifies sales, claims, loans, and policy details.
 
-Financial Risk Tracking: Monitor key metrics like revenue growth, historical payouts, and premium collection cycles.
+**Granular Demographic Profiling**: Analyze policy selection trends by state, age at entry, and occupation.
 
-Operational Efficiency & Security: Implement advanced bi-directional cross-filtering for deeper ad-hoc drill-downs and secure data access via dynamic Row-Level Security (RLS).
+**Financial Risk Tracking**: Monitor key metrics like revenue growth, historical payouts, and premium collection cycles.
 
-📊 Dataset Information
+**Operational Efficiency & Security**: Implement advanced bi-directional cross-filtering for deeper ad-hoc drill-downs and secure data access via dynamic Row-Level Security (RLS).
+
+📊** Dataset Information**
+
 The project runs on a relational star schema composed of 5 tables:
 
-🧩 Dimension Tables
+🧩** Dimension Tables**
 dim_customer_detail: Demographics including customer_id, name, gender, age at entry, current age, occupation, smoking status, medical exam requirements, and home state.
 
 dim_policy_type: Master categories (term, whole life, universal) mapped via policy_type_code.
