@@ -177,9 +177,7 @@ Code snippet
 ⚙️ How to Run and View the Project
 Clone the Repository:
 
-Bash
-git clone https://github.com/your-username/your-repo-name.git
-Load the Source Files: Open the source files inside the data/ folder.
+
 
 Launch the Power BI Desktop App: Open True_Secure_Insurance_Analytics.pbix in Microsoft Power BI Desktop.
 
