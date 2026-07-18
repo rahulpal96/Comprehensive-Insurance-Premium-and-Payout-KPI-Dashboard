@@ -15,7 +15,7 @@ The executive leadership faced several major operational challenges:
 
 **Claim Bottlenecks & Exposure**: There was no automated system to monitor active claim processing cycles or accurately project incoming liability payouts from mature investments.
 
-🎯** Project Goals**
+**🎯** Project Goals****
 
 **Unified Business View**: Design an interactive data model that unifies sales, claims, loans, and policy details.
 
@@ -30,18 +30,21 @@ The executive leadership faced several major operational challenges:
 The project runs on a relational star schema composed of 5 tables:
 
 🧩** Dimension Tables**
-dim_customer_detail: Demographics including customer_id, name, gender, age at entry, current age, occupation, smoking status, medical exam requirements, and home state.
 
-dim_policy_type: Master categories (term, whole life, universal) mapped via policy_type_code.
+**dim_customer_detail**: Demographics including customer_id, name, gender, age at entry, current age, occupation, smoking status, medical exam requirements, and home state.
 
-dim_policy_name: Detailed policy names linked to parent policy classifications.
+**dim_policy_type**: Master categories (term, whole life, universal) mapped via policy_type_code.
 
-dim_regional_security / dm_zonal_manager: Mapping organizational management levels and emails for secure access controls.
+**dim_policy_nam**e: Detailed policy names linked to parent policy classifications.
 
-🪙 Fact Table
+**dim_regional_security / dm_zonal_manager**: Mapping organizational management levels and emails for secure access controls.
+
+**🪙 Fact Table**
+
 fact_policy_lifecycle: Main transactional engine containing policy values, premium amounts, payment frequencies (Monthly, Quarterly, Half-Yearly, Yearly), loan eligibilities, cash values, surrender receivables, and sales agent codes.
 
-🛠️ Tools & Technologies
+🛠️** Tools & Technologies**
+
 Data Warehouse / Storage: SQL Relational Database
 
 ETL & Transformation: Power Query (M Formula Language)
